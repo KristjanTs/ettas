@@ -1,0 +1,152 @@
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.container {
+  background-color: #ffffff;
+}
+ul{
+  list-style-type:none;
+}
+li{
+  display: block;
+  padding-bottom: 0.5em;
+}
+ul.nav1 li{
+  display: block;
+  padding-bottom: 0px;
+}
+
+
+.rounded {
+  border-radius: 5px;
+}
+
+ul.viide li:before{
+  content: "\e080";
+  font-family: 'Glyphicons Halflings';
+  font-size: 9px;
+  float: left;
+  margin-top: 4px;
+  margin-left: -17px;
+  color: #0d3370;
+}
+
+footer{
+  margin-left: 13em;
+}
+
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color:#1262e2;
+  color: #1262e2;
+}
+
+.navbar-default .navbar-brand {
+  color: #0d3370;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #1d5cc1;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #1262e2;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color:#FFFFFF;
+  background-color: #1262e2;
+}
+
+.navbar-default .navbar-nav > li >a:hover,
+.navbar-default .navbar-nav > li >a:focus {
+  color: #0d3370;
+  background-color: #f0f0f0;
+}
+
+.spets1 ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.spets1 li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  padding-bottom: 1em;
+
+}
+
+.spets1 li:before {
+    content: counters(item, ".") ". ";
+    display: table-cell;
+    padding-right: 0.6em;
+}
+
+.spets1 li li {
+    margin: 0;
+}
+
+.spets1 li li:before {
+    content: counters(item, ".") " ";
+}
+
+#form {
+  float:left;
+  margin-top: 7px;
+  margin-left: 10px;
+
+}
+#form1 {
+  float:right;
+  margin-top: 7px;
+  margin-left: 10px;
+  width: 7em !important;
+  background-color:#1262e2;
+
+}
+
+#error {
+  color: red;
+}
+
+.clickable
+{
+    cursor: pointer;
+}
+
+.clickable .glyphicon
+{
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px
+}
+
+.panel-heading span
+{
+    margin-top: -23px;
+    font-size: 15px;
+    margin-right: -9px;
+}
+a.clickable { color: inherit; }
+a.clickable:hover { text-decoration:none; }
