@@ -150,3 +150,10 @@ footer{
 }
 a.clickable { color: inherit; }
 a.clickable:hover { text-decoration:none; }
+
+textarea {
+  width: 100%;
+  resize: none;
+  border-radius: 3px;
+  height:80px;
+}
