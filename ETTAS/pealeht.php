@@ -10,6 +10,9 @@
           if (strpos($url,'error=pw') !== false){
             echo "</br><p class='text-center' id='error'>Vale kasutajanimi või parool.</p>";
           }
+          if (strpos($url,'error=login') !== false){
+            echo "</br><p class='text-center' id='error'>Foorumi kasutamiseks peate olema sisselogitud.</p>";
+          }
           if(isset($_SESSION['id'])){
             echo "<p>
             Olete sisse logitud!
