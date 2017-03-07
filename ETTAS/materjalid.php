@@ -82,16 +82,14 @@
         <li>
           <b>09.01.2015</b> <a href="http://ettas.ee/files/docs/Ttervishoiuteenuse_korraldamine_ettevttes_2013_kokkuvte.pdf">Tööinspektsiooni sihtkontrolli kokkuvõte</a>
         </li>
-        <hr>
         <li>
           <b>26.10.2007</b> <a href="http://ettas.ee/files/docs/protokoll26_10_07.doc">ETTAS koosoleku protokoll </a>
         </li>
         <li>
           <b>07.03.2008</b> <a href="http://ettas.ee/files/docs/ettas070308protokoll.doc">ETTAS koosoleku protokoll </a>
         </li>
-        <hr>
         <li>
-          <b>27.05.2011</b> <a href="http://ettas.ee/files/docs/Occupational_hygiene_and_indoor_air.pptx">ETTAS koosoleku ettekanne (<a href="http://ettas.ee/files/docs/ettas_pilt_1.JPG">pilt1</a>, <a href="http://ettas.ee/files/docs/ettas_pilt_2.JPG">pilt2</a>)</a>
+          <b>27.05.2011</b> <a href="http://ettas.ee/files/docs/Occupational_hygiene_and_indoor_air.pptx">ETTAS koosoleku ettekanne</a> (<a href="http://ettas.ee/files/docs/ettas_pilt_1.JPG">pilt1</a>, <a href="http://ettas.ee/files/docs/ettas_pilt_2.JPG">pilt2</a>)
         </li>
       </ul>
 

@@ -24,14 +24,9 @@
       $sql_userid ="SELECT * FROM user WHERE id='$id'";
       $result_userid =mysqli_query($conn,$sql_userid);
       if($row_userid=mysqli_fetch_assoc($result_userid)){
-        echo "<div class='well'><b>".$row_userid['uid']."</b></br><i>".$row['date']."</i></br></br>".nl2br($row['message'])."</br></br>"."</div>";
-
+        echo "<div class='well'><b>".$row_userid['uid']."</b><br /><i>".$row['date']."</i><br /><br />".nl2br($row['message'])."<br /><br />"."</div>";
       }
-
-
     }
-
-
   }
 
 

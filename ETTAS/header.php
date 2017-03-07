@@ -7,6 +7,8 @@ session_start();
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="ETTAS, Eesti Töötervishoiuarstide Selts, Töötervishoid" />
+  <meta name="robots" content="index/follow" />
   <title>ETTAS</title>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -66,9 +68,9 @@ function echoActiveClass($requestUri)
             }
             else{
               echo "<form class='form-inline my-2 my-lg-0' action='includes/login.inc.php' method='POST'>
-                  <li id='form'><input type='text' name='uid' class='form-control mb-2 mr-sm-2 mb-sm-0' id='inlineFormInput' placeholder='Kasutaja' required></li>
-                  <li id='form'><input type='password' name='pwd' class='form-control' id='inlineFormInputGroup' placeholder='Parool' required></li>
-                  <li id='form'><button id='logbtn' type='submit' class='btn btn-primary'>Sisene</button></li>
+                  <div id='form'><input type='text' name='uid' class='form-control mb-2 mr-sm-2 mb-sm-0' id='inlineFormInput' placeholder='Kasutaja' required>
+                  <input type='password' name='pwd' class='form-control' id='inlineFormInputGroup' placeholder='Parool' required>
+                  <button id='logbtn' type='submit' class='btn btn-primary'>Sisene</button></div>
               </form>";
           }
           ?>
